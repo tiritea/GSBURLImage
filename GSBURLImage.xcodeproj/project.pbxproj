@@ -1,0 +1,255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82FC44241CFFAC6500D846F2 /* GSBURLImage.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82FC44231CFFAC6500D846F2 /* GSBURLImage.h */; };
+		82FC44261CFFAC6500D846F2 /* GSBURLImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82FC44251CFFAC6500D846F2 /* GSBURLImage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82FC441E1CFFAC6500D846F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				82FC44241CFFAC6500D846F2 /* GSBURLImage.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		82FC44201CFFAC6500D846F2 /* libGSBURLImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGSBURLImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		82FC44231CFFAC6500D846F2 /* GSBURLImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GSBURLImage.h; sourceTree = "<group>"; };
+		82FC44251CFFAC6500D846F2 /* GSBURLImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GSBURLImage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82FC441D1CFFAC6500D846F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82FC44171CFFAC6500D846F2 = {
+			isa = PBXGroup;
+			children = (
+				82FC44221CFFAC6500D846F2 /* GSBURLImage */,
+				82FC44211CFFAC6500D846F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82FC44211CFFAC6500D846F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82FC44201CFFAC6500D846F2 /* libGSBURLImage.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82FC44221CFFAC6500D846F2 /* GSBURLImage */ = {
+			isa = PBXGroup;
+			children = (
+				82FC44231CFFAC6500D846F2 /* GSBURLImage.h */,
+				82FC44251CFFAC6500D846F2 /* GSBURLImage.m */,
+			);
+			path = GSBURLImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82FC441F1CFFAC6500D846F2 /* GSBURLImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82FC44291CFFAC6500D846F2 /* Build configuration list for PBXNativeTarget "GSBURLImage" */;
+			buildPhases = (
+				82FC441C1CFFAC6500D846F2 /* Sources */,
+				82FC441D1CFFAC6500D846F2 /* Frameworks */,
+				82FC441E1CFFAC6500D846F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GSBURLImage;
+			productName = GSBURLImage;
+			productReference = 82FC44201CFFAC6500D846F2 /* libGSBURLImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82FC44181CFFAC6500D846F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xiphware;
+				TargetAttributes = {
+					82FC441F1CFFAC6500D846F2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 82FC441B1CFFAC6500D846F2 /* Build configuration list for PBXProject "GSBURLImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82FC44171CFFAC6500D846F2;
+			productRefGroup = 82FC44211CFFAC6500D846F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82FC441F1CFFAC6500D846F2 /* GSBURLImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82FC441C1CFFAC6500D846F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FC44261CFFAC6500D846F2 /* GSBURLImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		82FC44271CFFAC6500D846F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82FC44281CFFAC6500D846F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82FC442A1CFFAC6500D846F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		82FC442B1CFFAC6500D846F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82FC441B1CFFAC6500D846F2 /* Build configuration list for PBXProject "GSBURLImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FC44271CFFAC6500D846F2 /* Debug */,
+				82FC44281CFFAC6500D846F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82FC44291CFFAC6500D846F2 /* Build configuration list for PBXNativeTarget "GSBURLImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82FC442A1CFFAC6500D846F2 /* Debug */,
+				82FC442B1CFFAC6500D846F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82FC44181CFFAC6500D846F2 /* Project object */;
+}
