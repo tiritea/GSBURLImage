@@ -216,6 +216,7 @@
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGETNAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -225,6 +226,7 @@
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "include/$(TARGETNAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -248,6 +250,7 @@
 				82FC442B1CFFAC6500D846F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
